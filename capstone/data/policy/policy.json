@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-01T00:00:00Z",
+  "response_rules": {
+    "max_sentences": 6,
+    "forbidden_phrases": ["i guarantee", "i promise it will be approved", "definitely covered", "100% covered", "you should sue", "i can waive the fee"],
+    "required_on_escalation": ["ticket_id"],
+    "required_on_safety_critical": ["stop using the vehicle", "escalat"]
+  },
+  "escalation_severities": ["CRITICAL", "HIGH", "MEDIUM"],
+  "pii_fields_never_logged": ["phone", "email", "vehicle_reg", "vin", "name", "address"]
+}

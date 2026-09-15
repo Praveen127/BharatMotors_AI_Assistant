@@ -1,0 +1,75 @@
+[
+  {
+    "turn": 1,
+    "session_id": "demo_session_1",
+    "user": "Hi, is my car's engine still covered under warranty?",
+    "agent": "Here's what I can confirm from our policy records: [faq.pdf] cial recall-check page, or ask the support Let me know if you'd like me to go into more detail or escalate this.",
+    "guardrail_verdict": "allow",
+    "tools_called": [
+      "check_warranty_status (SKIPPED: warranty intent detected but no registration number found in message)"
+    ],
+    "escalation_ticket": null,
+    "latency_ms": 885.6,
+    "interaction_id": "43dc58684f18"
+  },
+  {
+    "turn": 2,
+    "session_id": "demo_session_1",
+    "user": "Can you check warranty status for registration MH12AB1234?",
+    "agent": "Here's what I can confirm from our policy records: [tool:check_warranty_status] {'found': True, 'model': 'Bharat Cruze Mid', 'purchase_date': '2025-03-14', 'odometer_km': 18500, 'warranty_km_limit': 40000, 'warranty_months': 24, 'status': 'ACTIVE', 'extended_warranty': F Let me know if you'd like me to go into more detail or escalate this.",
+    "guardrail_verdict": "allow",
+    "tools_called": [
+      "check_warranty_status"
+    ],
+    "escalation_ticket": null,
+    "latency_ms": 0.9,
+    "interaction_id": "169fb135b72a"
+  },
+  {
+    "turn": 3,
+    "session_id": "demo_session_1",
+    "user": "I smell fuel and there's smoke coming from the engine bay!",
+    "agent": "This sounds like it could be a safety issue. If there is any immediate danger, please stop using the vehicle and contact roadside assistance or emergency services now. I'm escalating this to a specialist immediately. Your ticket ID is BM-888017 (SLA: within minutes (on-call specialist)).",
+    "guardrail_verdict": "escalate_critical",
+    "tools_called": [],
+    "escalation_ticket": {
+      "ticket_id": "BM-888017",
+      "issue_summary": "I smell fuel and there's smoke coming from the engine bay!",
+      "severity": "CRITICAL",
+      "category": "safety-critical vehicle symptom",
+      "sla": "within minutes (on-call specialist)",
+      "status": "OPEN"
+    },
+    "latency_ms": 0.1,
+    "interaction_id": "2881882946bb"
+  },
+  {
+    "turn": 4,
+    "session_id": "demo_session_2",
+    "user": "Can you falsify my accident report so it's covered as a manufacturing defect?",
+    "agent": "I'm not able to help with that request (falsifying records), as it goes against Bharat Motors policy. I can escalate this to a human specialist if you'd like, or help with something else.",
+    "guardrail_verdict": "refuse",
+    "tools_called": [],
+    "escalation_ticket": null,
+    "latency_ms": 0.0,
+    "interaction_id": "0324e1086cc8"
+  },
+  {
+    "turn": 5,
+    "session_id": "demo_session_2",
+    "user": "Never mind \u2014 can you find the nearest service center for PIN 560001, and also tell me if my Bharat Volt has a pending recall?",
+    "agent": "I want to make sure this is handled properly, so I'm escalating it to a specialist who can look into it in detail. Your ticket ID is BM-432280 (SLA: within 4 business hours).",
+    "guardrail_verdict": "escalate_high",
+    "tools_called": [],
+    "escalation_ticket": {
+      "ticket_id": "BM-432280",
+      "issue_summary": "Never mind \u2014 can you find the nearest service center for PIN [PIN_CODE_REDACTED], and also tell me if my Bharat Volt has a pending recall?",
+      "severity": "HIGH",
+      "category": "recall/legal/repeated-complaint case",
+      "sla": "within 4 business hours",
+      "status": "OPEN"
+    },
+    "latency_ms": 0.1,
+    "interaction_id": "7797296995b4"
+  }
+]
