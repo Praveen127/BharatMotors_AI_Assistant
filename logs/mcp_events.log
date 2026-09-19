@@ -1,3 +1,0 @@
-{"ts": "2026-09-15T11:50:08.456863+00:00", "event": "server_start"}
-{"ts": "2026-09-15T11:50:08.456995+00:00", "method": "tools/list", "id": 1, "result_count": 4}
-{"ts": "2026-09-15T11:50:08.457141+00:00", "method": "tools/call", "id": 2, "tool": "check_warranty_status", "args_keys": ["vehicle_reg"], "status": "ok"}
