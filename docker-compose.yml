@@ -1,0 +1,55 @@
+# Local testing, or a straightforward deploy to any Docker-capable VM (a
+# DigitalOcean droplet, an EC2/Compute Engine/Azure VM, etc.). Builds one
+# image and runs it as two services: the FastAPI backend and the Streamlit
+# UI, talking to each other over the compose network.
+#
+# Run:      docker compose up --build
+# UI:       http://localhost:8501
+# API docs: http://localhost:8080/docs
+# Run (bg): docker compose up --build -d
+# Logs:     docker compose logs -f
+# Stop:     docker compose down
+
+services:
+  api:
+    build: .
+    image: bharat-motors-support-agent:latest
+    command: >
+      uvicorn deployment.app:app --host 0.0.0.0 --port 8080
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env  # copy .env.example -> .env first; safe to omit this line
+              # entirely to run with only the USE_MOCK_LLM=true default
+    environment:
+      - PORT=8080
+    volumes:
+      # Persist logs and adaptive/RLHF state across container restarts --
+      # without this, logs/*.log and data/rlhf/feedback_store.json reset
+      # every time the container is recreated (see README "Known
+      # limitation: session state").
+      - ./logs:/app/logs
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  ui:
+    image: bharat-motors-support-agent:latest
+    command: >
+      streamlit run deployment/streamlit_app.py
+      --server.port=8501 --server.address=0.0.0.0
+      --server.headless=true
+    ports:
+      - "8501:8501"
+    environment:
+      - API_BASE_URL=http://api:8080
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped

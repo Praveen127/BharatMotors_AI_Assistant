@@ -1,0 +1,84 @@
+# Google App Engine Flexible Environment config.
+# App Engine Flexible builds and runs the Dockerfile in this directory, so
+# this file and the Dockerfile work together -- app.yaml controls scaling,
+# health checks, and environment variables; the Dockerfile controls what
+# actually runs. The Dockerfile's default CMD runs the FastAPI backend
+# (deployment/app.py via uvicorn); this app.yaml deploys that service.
+#
+# The Streamlit UI (deployment/streamlit_app.py) is a second, independent
+# service and is NOT deployed by this file -- see "Deploying the Streamlit
+# UI" at the bottom of this file, and docs/deployment_guide.md.
+#
+# Deploy:  gcloud app deploy app.yaml
+#
+# (If you'd rather use Google Cloud Run instead of App Engine -- simpler,
+# serverless, generally cheaper for spiky/low traffic -- you don't need
+# this file at all; see README "Deploying to Google Cloud" for the
+# `gcloud run deploy` command, which uses the Dockerfile directly.)
+
+runtime: custom
+env: flex
+
+service: bharat-motors-support-agent
+
+resources:
+  cpu: 1
+  memory_gb: 1
+  disk_size_gb: 10
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 3
+  cool_down_period_sec: 120
+  cpu_utilization:
+    target_utilization: 0.6
+
+readiness_check:
+  path: "/health"
+  check_interval_sec: 5
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+  app_start_timeout_sec: 300
+
+liveness_check:
+  path: "/health"
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 4
+  success_threshold: 2
+
+env_variables:
+  # Defaults to fully offline mode -- flip to "false" and set
+  # GOOGLE_API_KEY (via Secret Manager, NOT in plaintext here) to use the
+  # real LangChain/Google Gemini backend. See docs/engineering_justification.md §3.
+  USE_MOCK_LLM: "true"
+  LLM_MODEL: "gemini-2.5-flash"
+  LLM_TEMPERATURE: "0.2"
+  LOG_LEVEL: "INFO"
+  MAX_REQUEST_CHARS: "2000"
+  REQUEST_TIMEOUT_S: "15"
+  # GOOGLE_API_KEY intentionally omitted -- never commit a real key to
+  # app.yaml. Set it via Google Secret Manager, or pass --set-env-vars from
+  # your own secret store / CI pipeline at deploy time.
+
+network:
+  session_affinity: true  # keeps a customer's session on the same
+                            # in-memory MemoryStore instance -- see README
+                            # "Known limitation: session state"
+
+# --------------------------------------------------------------------------
+# Deploying the Streamlit UI (separate from this app.yaml)
+# --------------------------------------------------------------------------
+# App Engine Flexible deploys one process per service/app.yaml, so the
+# Streamlit UI is deployed as its own Cloud Run service (simplest) pointed
+# at this API's URL:
+#
+#   gcloud run deploy bharat-motors-support-ui \
+#     --source . \
+#     --command streamlit \
+#     --args="run,deployment/streamlit_app.py,--server.port=8080,--server.address=0.0.0.0,--server.headless=true" \
+#     --set-env-vars API_BASE_URL=https://<this-api's-cloud-run-url> \
+#     --allow-unauthenticated
+#
+# See docs/deployment_guide.md for the full walkthrough.

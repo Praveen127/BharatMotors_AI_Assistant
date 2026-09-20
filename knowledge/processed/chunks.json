@@ -1,0 +1,240 @@
+[
+  {
+    "chunk_id": "company_policy_000_a6f792",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "BHARAT MOTORS \u2014 CUSTOMER SERVICE POLICY MANUAL\nSECTION 1: WARRANTY POLICY\n1.1 Standard Warranty Coverage\nAll new Bharat Motors passenger vehicles carry a standard manufacturer warranty of\n2 years or 40,000 km (whichever occurs first) from the date of vehicle delivery, as\nrecorded in the Owner Manual and digital Service Record.\n1.2 What Is Covered\nEngine assembly, transmission assembly, electrical systems (wiring harness, ECU,\nsensors, infotainment unit), air conditioning compressor, suspension c",
+    "position": 0
+  },
+  {
+    "chunk_id": "company_policy_001_ceae57",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "ess, ECU,\nsensors, infotainment unit), air conditioning compressor, suspension components,\nand paint/body panels (3 years) against manufacturing defects only.\n1.3 What Is Not Covered\nNormal wear-and-tear items (brake pads, clutch plates, wiper blades, tyres, bulbs),\ndamage from accidents/misuse/overloading/off-road use/unauthorized modifications,\ndamage from non-recommended fuel or accessories, and corrosion due to lack of\nmaintenance unless anti-rust warranty was separately purchased.\n1.4 Exten",
+    "position": 1
+  },
+  {
+    "chunk_id": "company_policy_002_8ea6db",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "ack of\nmaintenance unless anti-rust warranty was separately purchased.\n1.4 Extended Warranty\nAvailable up to 5 years / 100,000 km if purchased within 40,000 km or 24 months of\ndelivery, whichever is earlier. Same coverage exclusions as standard warranty apply.\n1.5 Warranty Claim Process\nClaims must be raised at an authorized service center, supported by service history.\nA single missed scheduled service does not automatically void warranty, but repeated\nnon-adherence may be cited if the defect i",
+    "position": 2
+  },
+  {
+    "chunk_id": "company_policy_003_cbe194",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "matically void warranty, but repeated\nnon-adherence may be cited if the defect is directly linked to lack of maintenance.\nApproval timelines are typically 3\u20137 working days after inspection.\n1.6 Agent Limits on Warranty\nSupport agents CANNOT approve, reject, or guarantee warranty claim outcomes \u2014 only\nthe manufacturer's warranty approval team can decide after physical inspection.\nAgents CANNOT waive exclusions or offer discretionary goodwill repairs; such\nrequests must be escalated to the service",
+    "position": 3
+  },
+  {
+    "chunk_id": "company_policy_004_83786d",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "r discretionary goodwill repairs; such\nrequests must be escalated to the service manager.\nSECTION 2: PERIODIC SERVICE SCHEDULE\n2.1 Free Services\nService 1 at 1,000 km/1 month (inspection only, labour free); Service 2 at\n5,000 km/6 months; Service 3 at 10,000 km/12 months. Free services cover labour\nonly; consumables beyond Service 1 are chargeable.",
+    "position": 4
+  },
+  {
+    "chunk_id": "company_policy_005_0179ec",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "2.2 Paid Periodic Services\nEvery 10,000 km or 12 months thereafter. Includes engine oil/filter replacement,\nair filter check (alternate services), brake inspection/fluid top-up, and a\n40+ point multi-point health check.\n2.3 Additional Scheduled Items\nCabin air filter every 15,000 km; brake fluid every 40,000 km/2 years; coolant\nevery 60,000 km/3 years. Timing belt/chain interval is engine-specific \u2014 agents\nmust direct customers to their model's Owner Manual or the service center rather\nthan quot",
+    "position": 5
+  },
+  {
+    "chunk_id": "company_policy_006_4b290c",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "t customers to their model's Owner Manual or the service center rather\nthan quoting a generic number.\n2.4 Agent Limits on Service\nAgents CANNOT quote exact service cost estimates (varies by city, variant, and\ncurrent parts pricing) \u2014 use the cost-estimate tool or direct to service center.\nAgents CANNOT guarantee specific appointment slots.\nSECTION 3: RECALL POLICY\n3.1 Recall Notification\nRegistered owners are notified by SMS, email, and registered post. Recalls are\npublished on the Bharat Motors",
+    "position": 6
+  },
+  {
+    "chunk_id": "company_policy_007_d8bdbb",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "d by SMS, email, and registered post. Recalls are\npublished on the Bharat Motors official website.\n3.2 Checking Recall Status\nUse the vehicle's VIN (on the RC book / chassis) via the official recall-check\ntool. Agents must NOT guess or assume recall status without checking.\n3.3 Recall Repairs\nFree of cost at authorized service centers regardless of warranty status.\n3.4 Safety-Critical Symptoms\nIf a customer reports symptoms matching a known safety-recall category (airbag\nmalfunction, brake failu",
+    "position": 7
+  },
+  {
+    "chunk_id": "company_policy_008_060a1d",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "ymptoms matching a known safety-recall category (airbag\nmalfunction, brake failure, steering issue, fuel leak, smoke/fire risk), the agent\nMUST advise the customer to stop using the vehicle if there is immediate danger,\ndirect them to roadside assistance/emergency services, and escalate to a human\nspecialist immediately. Agents must NOT speculate on mechanical cause or suggest\nDIY fixes for safety-critical symptoms.\nSECTION 4: DATA PRIVACY\nCustomer PII (name, phone number, email, vehicle registr",
+    "position": 8
+  },
+  {
+    "chunk_id": "company_policy_009_df044c",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "SECTION 4: DATA PRIVACY\nCustomer PII (name, phone number, email, vehicle registration number, VIN, address)\nmust never be written to persistent conversation logs in plaintext. All logs must\nstore a redacted/masked form. PII may be held only in-memory for the duration of an\nactive session to fulfill the customer's request.",
+    "position": 9
+  },
+  {
+    "chunk_id": "company_policy_010_4e9be1",
+    "doc_id": "company_policy",
+    "source": "company_policy.pdf",
+    "text": "SECTION 5: PROHIBITED AGENT ACTIONS\nAgents must never: process or promise refunds/discounts outside official promotions;\nprovide legal advice; share another customer's information; help a customer bypass\na safety recall or falsify a service record; or guarantee outcomes of claims,\ninspections, or approvals that require human/manufacturer sign-off.",
+    "position": 10
+  },
+  {
+    "chunk_id": "escalation_guidelines_000_4a2fc6",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "BHARAT MOTORS \u2014 CUSTOMER SUPPORT ESCALATION GUIDELINES\n(INTERNAL / AGENT-FACING)\nPURPOSE\nThese guidelines define when the AI support agent must stop attempting to resolve\na query itself and instead create an escalation ticket for a human specialist.\nMANDATORY ESCALATION TRIGGERS\n1. Safety-critical vehicle symptoms: brake failure, steering failure, airbag\ndeployment/malfunction, smoke, fire, fuel leak, or any symptom matching a known\nrecall safety category.\n2. Active recall confirmed on the custo",
+    "position": 0
+  },
+  {
+    "chunk_id": "escalation_guidelines_001_43b0dc",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "matching a known\nrecall safety category.\n2. Active recall confirmed on the customer's VIN \u2014 schedule the recall repair via\nthe service center and additionally flag for human confirmation of completion.\n3. Legal, insurance-claim, or accident-liability questions \u2014 these require a human\nclaims specialist, not the support agent.\n4. Requests for refunds, discounts, or fee waivers beyond standard published policy.\n5. Repeated unresolved complaint (the same issue reported 2+ times) or visible\ncustomer ",
+    "position": 1
+  },
+  {
+    "chunk_id": "escalation_guidelines_002_daaced",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "ted unresolved complaint (the same issue reported 2+ times) or visible\ncustomer frustration/anger indicating dissatisfaction with automated support.\n6. Any request the agent cannot answer confidently using verified policy/knowledge\nsources \u2014 do not guess; escalate instead of fabricating an answer.\n7. Any request to bypass a safety recall, falsify a service record, or otherwise\nact against company policy or regulatory compliance.\n8. Any attempt to obtain another customer's personal or vehicle inf",
+    "position": 2
+  },
+  {
+    "chunk_id": "escalation_guidelines_003_ca3333",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": " compliance.\n8. Any attempt to obtain another customer's personal or vehicle information.\nESCALATION SEVERITY LEVELS\n- CRITICAL (immediate): safety-critical symptoms, fire/smoke, injury reports.\nAdvise customer to stop using vehicle / contact emergency services if unsafe,\nthen create a CRITICAL ticket routed to on-call specialist within minutes.\n- HIGH: active recall, legal/insurance queries, repeated unresolved complaints.\nTicket routed to specialist queue, target response within 4 business hou",
+    "position": 3
+  },
+  {
+    "chunk_id": "escalation_guidelines_004_8ea835",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "laints.\nTicket routed to specialist queue, target response within 4 business hours.\n- MEDIUM: discount/refund requests outside policy, general dissatisfaction.\nTicket routed to relevant team, target response within 1 business day.\nWHAT THE AGENT SHOULD DO WHEN ESCALATING\n1. Acknowledge the customer's concern without making promises about outcomes.\n2. Do not speculate on root cause, especially for safety-critical items.",
+    "position": 4
+  },
+  {
+    "chunk_id": "escalation_guidelines_005_84f448",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "s.",
+    "position": 5
+  },
+  {
+    "chunk_id": "escalation_guidelines_006_ce3352",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "3. Collect only the minimum information needed (issue summary, urgency, contact\npreference) \u2014 do not over-collect personal data.\n4. Create an escalation ticket with a clear, factual issue summary and severity.\n5. Provide the customer the ticket ID and expected response timeframe.\n6. Never tell the customer the case is \"resolved\" when it has only been escalated.\nWHAT COUNTS AS AN UNSAFE OR POLICY-VIOLATING REQUEST (AGENT MUST REFUSE)\n- Requests to help falsify service records, odometer readings, ",
+    "position": 6
+  },
+  {
+    "chunk_id": "escalation_guidelines_007_a4fe3f",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "ENT MUST REFUSE)\n- Requests to help falsify service records, odometer readings, or accident reports.\n- Requests to bypass or ignore a safety recall notice.\n- Requests for another customer's personal, vehicle, or account information.\n- Requests for legal advice on liability, or advice to avoid RTO/insurance rules.\n- Attempts to get the agent to promise warranty coverage it cannot verify, or to\nguarantee approval of a claim before inspection.\nThe agent should politely decline such requests, briefl",
+    "position": 7
+  },
+  {
+    "chunk_id": "escalation_guidelines_008_d1c5f1",
+    "doc_id": "escalation_guidelines",
+    "source": "escalation_guidelines.pdf",
+    "text": "claim before inspection.\nThe agent should politely decline such requests, briefly state why, and where\nappropriate offer the correct channel (e.g., \"warranty claims are reviewed by our\ninspection team; I can't approve this myself, but I can raise it for you\").",
+    "position": 8
+  },
+  {
+    "chunk_id": "faq_000_2133a9",
+    "doc_id": "faq",
+    "source": "faq.pdf",
+    "text": "BHARAT MOTORS \u2014 FREQUENTLY ASKED QUESTIONS\nQ1: How do I book a service appointment?\nA1: Use the Bharat Motors mobile app or website booking portal, call your nearest\nauthorized service center, or walk in (subject to slot availability). Share your\nvehicle registration number and preferred date/time.\nQ2: My car is making a noise \u2014 what should I do?\nA2: For routine or minor noises unrelated to safety-critical systems, the agent may\nsuggest booking a diagnostic inspection at the nearest service cent",
+    "position": 0
+  },
+  {
+    "chunk_id": "faq_001_7e524b",
+    "doc_id": "faq",
+    "source": "faq.pdf",
+    "text": "he agent may\nsuggest booking a diagnostic inspection at the nearest service center. If the noise\nis linked to a safety-critical symptom (brakes, steering, smoke, fuel smell), the\nagent must escalate immediately per the Recall Policy safety guidance and advise the\ncustomer to stop driving if there's immediate danger.\nQ3: Can I get roadside assistance?\nA3: Yes. Bharat Motors provides 24x7 Roadside Assistance (RSA) covering towing\n(up to 50 km radius from breakdown point to the nearest authorized s",
+    "position": 1
+  },
+  {
+    "chunk_id": "faq_002_285927",
+    "doc_id": "faq",
+    "source": "faq.pdf",
+    "text": "ring towing\n(up to 50 km radius from breakdown point to the nearest authorized service center),\nbattery jumpstart, flat tyre change, and emergency fuel delivery (up to 5 litres,\nfuel cost payable by customer). RSA is available free for the first 3 years from\nvehicle delivery; thereafter an annual RSA subscription can be purchased.\nQ4: How do I check if my car has a pending recall?\nA4: Check using your VIN on the official recall-check page, or ask the support\nagent to look it up using the recall-",
+    "position": 2
+  },
+  {
+    "chunk_id": "faq_003_a9e086",
+    "doc_id": "faq",
+    "source": "faq.pdf",
+    "text": "cial recall-check page, or ask the support\nagent to look it up using the recall-check tool. Do not rely on general assurances\n\u2014 always confirm via VIN lookup.\nQ5: What is covered under warranty and what isn't?\nA5: See the Warranty Policy \u2014 manufacturing defects in engine, transmission,\nelectrical systems, AC compressor, and suspension are covered. Wear-and-tear items,\naccident damage, and neglect-related issues are not covered.\nQ6: Can the support agent give me a discount or waive my service cha",
+    "position": 3
+  },
+  {
+    "chunk_id": "faq_004_72df3e",
+    "doc_id": "faq",
+    "source": "faq.pdf",
+    "text": "ot covered.\nQ6: Can the support agent give me a discount or waive my service charges?\nA6: No. Support agents cannot authorize discounts, refunds, or fee waivers outside\nofficial ongoing promotions. Such requests should be redirected to the dealership\nsales/service manager through official channels.\nQ7: I'm unhappy with my last service experience \u2014 what can I do?\nA7: The agent will log your complaint and, for unresolved or sensitive\ndissatisfaction (e.g., repeated issue, safety concern, or reques",
+    "position": 4
+  },
+  {
+    "chunk_id": "faq_005_61d376",
+    "doc_id": "faq",
+    "source": "faq.pdf",
+    "text": "ed or sensitive\ndissatisfaction (e.g., repeated issue, safety concern, or request for compensation),\nescalate it to a human customer relations specialist with a tracked ticket number.\nQ8: Can I extend my warranty after 2 years?\nA8: Extended warranty must be purchased within 40,000 km or 24 months of delivery,\nwhichever comes first. It cannot be purchased after that window closes.",
+    "position": 5
+  },
+  {
+    "chunk_id": "faq_006_ede0cb",
+    "doc_id": "faq",
+    "source": "faq.pdf",
+    "text": "Q9: Does the agent store my personal details?\nA9: Your vehicle and contact details are used only within the active support\nsession to help resolve your query. They are not written to permanent logs in\nreadable form \u2014 logs store masked/redacted versions only.\nQ10: How do I find my nearest service center?\nA10: Share your PIN code or city, and the agent can use the service-center locator\ntool to list the nearest authorized centers with contact details.",
+    "position": 6
+  },
+  {
+    "chunk_id": "product_catalog_000_7b48a4",
+    "doc_id": "product_catalog",
+    "source": "product_catalog.pdf",
+    "text": "BHARAT MOTORS \u2014 PRODUCT CATALOG (FY2026)\n1. HATCHBACK SEGMENT \u2014 \"Bharat Neo\"\nVariants: Neo E, Neo S, Neo Z\nEngine options: 1.0L Petrol (67 bhp), 1.0L Petrol-CNG (58 bhp)\nTransmission: 5-speed manual / 5-speed AMT\nFuel efficiency (ARAI claimed): 22.5 km/l (petrol), 30.5 km/kg (CNG)\nKey features: dual airbags (standard on all variants), ABS with EBD, rear parking\nsensors, 7-inch touchscreen (Z variant), manual AC.\nEx-showroom price band: INR 5.5\u20137.8 lakh (varies by city/state RTO tax).\n2. SEDAN SE",
+    "position": 0
+  },
+  {
+    "chunk_id": "product_catalog_001_08784a",
+    "doc_id": "product_catalog",
+    "source": "product_catalog.pdf",
+    "text": "howroom price band: INR 5.5\u20137.8 lakh (varies by city/state RTO tax).\n2. SEDAN SEGMENT \u2014 \"Bharat Cruze\"\nVariants: Cruze Base, Cruze Mid, Cruze Top\nEngine options: 1.2L Petrol (89 bhp), 1.5L Diesel (99 bhp)\nTransmission: 5-speed manual / 6-speed torque converter automatic\nFuel efficiency (ARAI claimed): 19.8 km/l (petrol), 24.1 km/l (diesel)\nKey features: 6 airbags (Top variant), electronic stability control (Mid & Top),\nrear camera, cruise control (Top), ventilated front seats (Top).\nEx-showroom ",
+    "position": 1
+  },
+  {
+    "chunk_id": "product_catalog_002_ccac90",
+    "doc_id": "product_catalog",
+    "source": "product_catalog.pdf",
+    "text": "),\nrear camera, cruise control (Top), ventilated front seats (Top).\nEx-showroom price band: INR 9.2\u201313.6 lakh.\n3. SUV SEGMENT \u2014 \"Bharat Trailblaze\"\nVariants: Trailblaze Adventure, Trailblaze Explorer, Trailblaze Summit\nEngine options: 1.5L Turbo Petrol (158 bhp), 2.0L Diesel (170 bhp)\nTransmission: 6-speed manual / 7-speed DCT automatic / AWD (Summit only)\nFuel efficiency (ARAI claimed): 16.2 km/l (petrol), 19.4 km/l (diesel)\nKey features: 6 airbags standard, panoramic sunroof (Explorer & Summit",
+    "position": 2
+  },
+  {
+    "chunk_id": "product_catalog_003_6e5861",
+    "doc_id": "product_catalog",
+    "source": "product_catalog.pdf",
+    "text": " (diesel)\nKey features: 6 airbags standard, panoramic sunroof (Explorer & Summit), ADAS Level 1\n(Summit \u2014 includes forward collision warning and lane departure warning), 360-degree\ncamera (Summit), ventilated seats (Explorer & Summit).\nEx-showroom price band: INR 14.9\u201322.3 lakh.\n4. ELECTRIC VEHICLE SEGMENT \u2014 \"Bharat Volt\"\nVariants: Volt Standard Range, Volt Long Range\nBattery: 34 kWh (Standard Range) / 48 kWh (Long Range), Lithium-ion NMC chemistry\nClaimed range (MIDC/ARAI): 275 km (Standard), 3",
+    "position": 3
+  },
+  {
+    "chunk_id": "product_catalog_004_4d2c1b",
+    "doc_id": "product_catalog",
+    "source": "product_catalog.pdf",
+    "text": "ange), Lithium-ion NMC chemistry\nClaimed range (MIDC/ARAI): 275 km (Standard), 385 km (Long Range)\nCharging: 7.2 kW AC home charger (0\u2013100% in ~5 hrs); 50 kW DC fast charger\n(10\u201380% in ~55 minutes)\nKey features: 6 airbags, regenerative braking (3 levels), 10.25-inch touchscreen,\nconnected car app (remote climate pre-cooling, charge status), battery warranty\n8 years / 160,000 km.\nEx-showroom price band: INR 16.5\u201319.8 lakh (before state EV subsidy, where applicable).\nNOTE TO SUPPORT AGENT: Prices,",
+    "position": 4
+  },
+  {
+    "chunk_id": "product_catalog_005_c08f64",
+    "doc_id": "product_catalog",
+    "source": "product_catalog.pdf",
+    "text": "lakh (before state EV subsidy, where applicable).\nNOTE TO SUPPORT AGENT: Prices, subsidies, and exact specification figures change",
+    "position": 5
+  },
+  {
+    "chunk_id": "product_catalog_006_0cf099",
+    "doc_id": "product_catalog",
+    "source": "product_catalog.pdf",
+    "text": "periodically with model-year updates and state-level tax/subsidy policy. Always\ndirect customers to the official Bharat Motors website or nearest dealership for\ncurrent on-road pricing (which includes RTO registration, insurance, and state taxes\non top of ex-showroom price) rather than quoting a fixed number from memory.",
+    "position": 6
+  }
+]

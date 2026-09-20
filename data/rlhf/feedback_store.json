@@ -1,0 +1,17 @@
+{
+  "sessions": {
+    "rlhf_demo_session": {
+      "thumbs_up": 0,
+      "thumbs_down": 0,
+      "too_long_reports": 2,
+      "too_short_reports": 0,
+      "response_style": "concise"
+    }
+  },
+  "aggregate": {
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "too_long_reports": 2,
+    "too_short_reports": 0
+  }
+}

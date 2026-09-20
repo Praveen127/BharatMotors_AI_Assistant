@@ -1,0 +1,34 @@
+# Core agent framework (Track A: LangChain) + Google Gemini LLM backend
+langchain>=0.2.0
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0
+
+# Retrieval / vector store
+faiss-cpu>=1.7.4
+tiktoken>=0.6.0
+
+# Knowledge ingestion
+pypdf>=4.0.0
+
+# Backend API
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+
+# Web UI (talks to the FastAPI backend over HTTP -- see
+# deployment/streamlit_app.py and docs/deployment_guide.md)
+streamlit>=1.32.0
+requests>=2.31.0
+
+# MCP tool server (mcp/server.py, mcp/client.py). If unavailable, the
+# project automatically falls back to a hand-rolled offline implementation
+# with the same interface -- see mcp/server.py's docstring.
+fastmcp>=2.0.0
+
+# Offline-mode fallback (used automatically when the above / network are
+# unavailable -- see README "Offline Mode" and docs/engineering_justification.md)
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Evaluation / utilities
+python-dotenv>=1.0.0
